@@ -1,0 +1,23 @@
+{
+  "name": "snowformat",
+  "version": "0.1.1",
+  "description": "CLI tool to format Snowflake SQL",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "snowflake",
+    "sql",
+    "pretty"
+  ],
+  "author": "Manoj Karthick",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^9.4.1",
+    "snowsql-formatter": "^1.1.0"
+  },
+  "bin": {
+    "snowformat": "./index.js"
+  }
+}
